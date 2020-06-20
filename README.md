@@ -11,7 +11,7 @@ A website taht lets you plan the hours between 9 am and 5 pm.
 * JQuery
 
 ## Website
-https://jason-ahmed-123.github.io/run-buddy/
+https://jason-ahmed-123.github.io/week5-day-scheduler/
 
 ## Contribution
 Made with ❤️ by Jason Ahmed
