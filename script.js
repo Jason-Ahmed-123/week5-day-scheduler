@@ -1,25 +1,15 @@
-// Variables for each hour, between 9 and 5:
-/*var hour9 = $("#9");
-var hour10 = $("#10");
-var hour11 = $("#11");
-var hour12 = $("#12");
-var hour1 = $("#13");
-var hour2 = $("#14");
-var hour3 = $("#15");
-var hour4 = $("#16");
-var hour5 = $("#17");*/
 
 
 var time = moment();
 
-//
+// Function to set and enter text into the grid:
 function setPlanner()
 {   
     // Date function from moment.js:
     $("#currentDay").text(moment().format("dddd, MMMM Do YYYY"));
 
 
-    // to retriev from localStorage:
+    // To retrieve the schedule-field text from localStorage:
     $(".time-block").each(function()
     {
         var id = $(this).attr("id");
@@ -67,5 +57,4 @@ function pastPresentFuture()
     })
 }
 
-//
 pastPresentFuture();
