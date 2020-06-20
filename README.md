@@ -1,7 +1,7 @@
 # Work Day Scheduler
 
 ## Purpose
-A website taht lets you plan the hours between 9 am and 5 pm.
+A website that lets you plan the hours between 9 am and 5 pm.
 
 ## Built With
 * HTML
