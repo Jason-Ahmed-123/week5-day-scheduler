@@ -1,5 +1,4 @@
 
-
 var time = moment();
 
 // Function to set and enter text into the grid:
